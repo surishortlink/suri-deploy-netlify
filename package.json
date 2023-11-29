@@ -1,13 +1,13 @@
 {
-  "name": "@suri/deploy-netlify",
+  "name": "@surishortlink/deploy-netlify",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "A template repository tailored for deploying Suri to Netlify",
-  "homepage": "https://github.com/staticsuri/suri-deploy-netlify#readme",
-  "bugs": "https://github.com/staticsuri/suri-deploy-netlify/issues",
+  "homepage": "https://github.com/surishortlink/suri-deploy-netlify#readme",
+  "bugs": "https://github.com/surishortlink/suri-deploy-netlify/issues",
   "license": "MIT",
-  "repository": "staticsuri/suri-deploy-netlify",
+  "repository": "surishortlink/suri-deploy-netlify",
   "scripts": {
     "build": "suri"
   },
