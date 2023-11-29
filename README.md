@@ -22,8 +22,8 @@ and deploy. Everything should be correctly configured and ready to go.
 ### Auto-Deploy
 
 Any commits to the `main` branch of your new repository will trigger a new build
-and deploy. You can change this by going to the "Settings" of your `suri`
-service and editing the "Branch" and "Auto-Deploy" options.
+and deploy. You can change this by going to the "Site configuration" of your new
+site and editing the relevant "Build & deploy" options.
 
 ### Custom Domain
 
