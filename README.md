@@ -22,13 +22,16 @@ and deploy. Everything should be correctly configured and ready to go.
 ### Auto-Deploy
 
 Any commits to the `main` branch of your new repository will trigger a new build
-and deploy. You can change this by going to the "Site configuration" of your new
-site and editing the relevant "Build & deploy" options.
+and deploy. Pull requests get a
+[Deploy Preview](https://docs.netlify.com/deploy/deploy-types/deploy-previews/),
+so a mistake in `links.json` is caught before it's merged. You can change this
+in the "Project configuration" of your new site, under "Developer settings >
+Continuous deployment > Branches and deploy contexts".
 
 ### Custom Domain
 
 To use a custom domain, follow Netlify's guide:
-[Assign a domain to a production site](https://docs.netlify.com/domains-https/custom-domains/#assign-a-domain-to-a-production-site).
+[Assign a domain to your site or app](https://docs.netlify.com/manage/domains/manage-domains/assign-a-domain-to-your-site-app/).
 
 ## How It Works
 
@@ -48,8 +51,9 @@ include this file seeded with a few examples:
 
 It couldn't be simpler: the key is the "short link" path that gets redirected,
 and the value is the target URL. Keys can be as short or as long as you want,
-using whatever mixture of characters you want. `/` is a special entry for
-redirecting the root path.
+and can include `/` for nested paths, like `gh/suri`. Avoid `?` and `#`, which
+browsers treat as the start of a query string or fragment. `/` is a special
+entry for redirecting the root path.
 
 ### Build Static Site
 
