@@ -33,6 +33,21 @@ Continuous deployment > Branches and deploy contexts".
 To use a custom domain, follow Netlify's guide:
 [Assign a domain to your site or app](https://docs.netlify.com/manage/domains/manage-domains/assign-a-domain-to-your-site-app/).
 
+### Updating Suri
+
+[Dependabot](https://docs.github.com/en/code-security/dependabot) opens a pull
+request in your repository about a week after a new version of Suri is released.
+You can also update it yourself:
+
+```bash
+npm install @surishortlink/suri@latest
+```
+
+Then commit the updated `package.json` and `package-lock.json`. Before updating
+to a new major version, check
+[the release notes](https://github.com/surishortlink/suri/releases) for breaking
+changes.
+
 ## How It Works
 
 ### Manage Links
