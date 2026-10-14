@@ -13,11 +13,12 @@ Suri, including additional deployment options.
 
 ## Setup: One Click
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/surishortlink/suri-deploy-netlify)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/surishortlink/suri-deploy-netlify&fullConfiguration=true)
 
 After you hit the above button, Netlify will walk you through the entire
-process, from creating a new repository based on this one, to the initial build
-and deploy. Everything should be correctly configured and ready to go.
+process, from creating a new repository based on this one and choosing a
+project name, to the initial build and deploy. Everything should be correctly
+configured and ready to go.
 
 ### Auto-Deploy
 
